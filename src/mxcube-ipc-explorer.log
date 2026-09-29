@@ -1,0 +1,932 @@
+2026-09-25 09:13:28,253 INFO     mxcube_ipc_explorer: === mxcube-ipc-explorer starting (log file: mxcube-ipc-explorer.log) ===
+2026-09-25 09:13:28,344 INFO     mxcube_ipc_explorer: app started
+2026-09-25 09:13:28,346 INFO     mxcube_ipc_explorer: connecting: {'token': '***', 'transport': 'nanomq', 'broker_host': 'localhost', 'broker_port': 1883, 'topic_prefix': 'mxcube/ipc'}
+2026-09-25 09:13:28,690 INFO     mxcube_ipc_explorer: connected
+2026-09-25 09:13:28,695 INFO     mxcube_ipc_explorer: request: debug_list_roles(role='')
+2026-09-25 09:13:28,724 INFO     mxcube_ipc_explorer: response: debug_list_roles(role='') -> {'role': '', 'class': 'Beamline', 'roles': ['beam', 'beamline_actions', 'characterisation', 'collect', 'cryo', 'detector', 'diffractometer', 'energy', 'energy_scan', 'fast_shutter', 'flux', 'gphl_connection', 'gphl_workflow', 'ipc_server', 'lims', 'machine_info', 'procedure', 'queue_manager', 'queue_model', 'resolution', 'safety_shutter', 'sample_changer', 'sample_changer_maintenance', 'sample_view', 'session', 'transmission', 'workflow', 'xml_rpc_server', 'xray_centring', 'xrf_spectrum']}
+2026-09-25 09:13:40,864 INFO     mxcube_ipc_explorer: request: debug_call(role='queue_model', method='ipc_dump_queue', args=[], kwargs={})
+2026-09-25 09:13:40,894 INFO     mxcube_ipc_explorer: response: debug_call(role='queue_model', method='ipc_dump_queue') -> {'format_version': '0.0.1'}
+2026-09-25 09:13:42,020 INFO     mxcube_ipc_explorer: request: debug_call(role='queue_model', method='ipc_dump_queue', args=[], kwargs={})
+2026-09-25 09:13:42,024 INFO     mxcube_ipc_explorer: response: debug_call(role='queue_model', method='ipc_dump_queue') -> {'format_version': '0.0.1'}
+2026-09-25 09:13:42,572 INFO     mxcube_ipc_explorer: request: debug_call(role='queue_model', method='ipc_dump_queue', args=[], kwargs={})
+2026-09-25 09:13:42,577 INFO     mxcube_ipc_explorer: response: debug_call(role='queue_model', method='ipc_dump_queue') -> {'format_version': '0.0.1'}
+2026-09-25 09:13:49,334 INFO     mxcube_ipc_explorer: request: debug_call(role='queue_model', method='ipc_dump_queue', args=[], kwargs={})
+2026-09-25 09:13:49,338 INFO     mxcube_ipc_explorer: response: debug_call(role='queue_model', method='ipc_dump_queue') -> {'format_version': '0.0.1'}
+2026-09-25 09:13:49,682 INFO     mxcube_ipc_explorer: request: debug_call(role='queue_model', method='ipc_dump_queue', args=[], kwargs={})
+2026-09-25 09:13:49,686 INFO     mxcube_ipc_explorer: response: debug_call(role='queue_model', method='ipc_dump_queue') -> {'format_version': '0.0.1'}
+2026-09-25 09:13:49,987 INFO     mxcube_ipc_explorer: request: debug_call(role='queue_model', method='ipc_dump_queue', args=[], kwargs={})
+2026-09-25 09:13:49,992 INFO     mxcube_ipc_explorer: response: debug_call(role='queue_model', method='ipc_dump_queue') -> {'format_version': '0.0.1'}
+2026-09-25 09:13:50,905 INFO     mxcube_ipc_explorer: request: debug_call(role='queue_model', method='ipc_dump_queue', args=[], kwargs={})
+2026-09-25 09:13:50,910 INFO     mxcube_ipc_explorer: response: debug_call(role='queue_model', method='ipc_dump_queue') -> {'format_version': '0.0.1'}
+2026-09-25 09:13:51,250 INFO     mxcube_ipc_explorer: request: debug_call(role='queue_model', method='ipc_dump_queue', args=[], kwargs={})
+2026-09-25 09:13:51,255 INFO     mxcube_ipc_explorer: response: debug_call(role='queue_model', method='ipc_dump_queue') -> {'format_version': '0.0.1'}
+2026-09-25 09:14:31,983 INFO     mxcube_ipc_explorer: request: debug_call(role='queue_model', method='ipc_dump_queue', args=[], kwargs={})
+2026-09-25 09:14:31,986 INFO     mxcube_ipc_explorer: response: debug_call(role='queue_model', method='ipc_dump_queue') -> {'format_version': '0.0.1'}
+2026-09-25 09:14:32,401 INFO     mxcube_ipc_explorer: request: debug_call(role='queue_model', method='ipc_dump_queue', args=[], kwargs={})
+2026-09-25 09:14:32,404 INFO     mxcube_ipc_explorer: response: debug_call(role='queue_model', method='ipc_dump_queue') -> {'format_version': '0.0.1'}
+2026-09-25 13:50:08,544 INFO     mxcube_ipc_explorer: quitting
+2026-09-25 13:50:09,675 INFO     mxcube_ipc_explorer: === mxcube-ipc-explorer exiting ===
+2026-09-25 13:50:10,933 INFO     mxcube_ipc_explorer: === mxcube-ipc-explorer starting (log file: mxcube-ipc-explorer.log) ===
+2026-09-25 13:50:10,974 INFO     mxcube_ipc_explorer: app started
+2026-09-25 13:50:10,975 INFO     mxcube_ipc_explorer: connecting: {'token': '***', 'transport': 'nanomq', 'broker_host': 'localhost', 'broker_port': 1883, 'topic_prefix': 'mxcube/ipc'}
+2026-09-25 13:50:11,162 INFO     mxcube_ipc_explorer: connected
+2026-09-25 13:50:11,163 INFO     mxcube_ipc_explorer: whitelisted events: {'procedure.test_signal': {'role': 'procedure', 'signal': 'test_signal', 'args': None, 'args_schema': None}, 'diffractometer.omega.valueChanged': {'role': 'diffractometer.omega', 'signal': 'valueChanged', 'args': None, 'args_schema': None}}
+2026-09-25 13:50:11,166 INFO     mxcube_ipc_explorer: request: debug_list_roles(role='')
+2026-09-25 13:50:11,180 INFO     mxcube_ipc_explorer: response: debug_list_roles(role='') -> {'role': '', 'class': 'Beamline', 'roles': ['beam', 'beamline_actions', 'characterisation', 'collect', 'cryo', 'detector', 'diffractometer', 'energy', 'energy_scan', 'fast_shutter', 'flux', 'gphl_connection', 'gphl_workflow', 'ipc_server', 'lims', 'machine_info', 'procedure', 'queue_manager', 'queue_model', 'resolution', 'safety_shutter', 'sample_changer', 'sample_changer_maintenance', 'sample_view', 'session', 'transmission', 'workflow', 'xml_rpc_server', 'xray_centring', 'xrf_spectrum']}
+2026-09-25 13:50:35,169 INFO     mxcube_ipc_explorer: request: debug_call(role='queue_model', method='ipc_dump_queue', args=[], kwargs={})
+2026-09-25 13:50:35,171 INFO     mxcube_ipc_explorer: response: debug_call(role='queue_model', method='ipc_dump_queue') -> {'format_version': '0.0.1'}
+2026-09-25 13:50:36,037 INFO     mxcube_ipc_explorer: request: debug_call(role='queue_model', method='ipc_dump_queue', args=[], kwargs={})
+2026-09-25 13:50:36,038 INFO     mxcube_ipc_explorer: response: debug_call(role='queue_model', method='ipc_dump_queue') -> {'format_version': '0.0.1'}
+2026-09-25 13:50:56,232 INFO     mxcube_ipc_explorer: request: debug_describe_role(role='diffractometer')
+2026-09-25 13:50:56,232 INFO     mxcube_ipc_explorer: request: debug_list_roles(role='diffractometer')
+2026-09-25 13:50:56,275 INFO     mxcube_ipc_explorer: response: debug_describe_role(role='diffractometer') -> {'role': 'diffractometer', 'class': 'DiffractometerMockup', 'roles': ['aperture', 'backlight', 'backlightswitch', 'beamstop', 'capillary', 'focus', 'frontlight', 'frontlightswitch', 'fshutter', 'kappa', 'kappa_phi', 'omega', 'phiy', 'phiz', 'sampx', 'sampy', 'zoom'], 'methods': {'HOConfig': {'signature': '(**kwargs)', 'schema': None}, 'SPECIFIC_STATES': {'signature': '(value, names=None, *, module=None, qualname=None, type=None, start=1, boundary=None)', 'schema': None}, 'STATES': {'signature': '(value, names=None, *, module=None, qualname=None, type=None, start=1, boundary=None)', 'schema': None}, 'abort': {'signature': '()', 'schema': {'properties': {}, 'title': 'AbortRequest', 'type': 'object'}}, 'add_channel': {'signature': '(attributes_dict: Dict[str, Any], channel: str, add_now: bool = True) -> Optional[mxcubecore.CommandContainer.ChannelObject]', 'schema': {'properties': {'attributes_dict': {'title': 'Attributes Dict', 'type': 'object'}, 'channel': {'title': 'Channel', 'type': 'string'}, 'add_now': {'default': True, 'title': 'Add Now', 'type': 'boolean'}}, 'required': ['attributes_dict', 'channel'], 'title': 'AddChannelRequest', 'type': 'object'}}, 'add_command': {'signature': '(arg1: Dict[str, Any], arg2: Optional[str] = None, add_now: bool = True) -> Optional[mxcubecore.CommandContainer.CommandObject]', 'schema': {'properties': {'arg1': {'title': 'Arg1', 'type': 'object'}, 'arg2': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None, 'title': 'Arg2'}, 'add_now': {'default': True, 'title': 'Add Now', 'type': 'boolean'}}, 'required': ['arg1'], 'title': 'AddCommandRequest', 'type': 'object'}}, 'add_reference': {'signature': '(name: str, reference: str, role: Optional[str] = None) -> None', 'schema': {'properties': {'name': {'title': 'Name', 'type': 'string'}, 'reference': {'title': 'Reference', 'type': 'string'}, 'role': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None, 'title': 'Role'}}, 'required': ['name', 'reference'], 'title'... (15120 chars total)
+2026-09-25 13:50:56,296 INFO     mxcube_ipc_explorer: response: debug_list_roles(role='diffractometer') -> {'role': 'diffractometer', 'class': 'DiffractometerMockup', 'roles': ['aperture', 'backlight', 'backlightswitch', 'beamstop', 'capillary', 'focus', 'frontlight', 'frontlightswitch', 'fshutter', 'kappa', 'kappa_phi', 'omega', 'phiy', 'phiz', 'sampx', 'sampy', 'zoom']}
+2026-09-25 13:51:01,495 INFO     mxcube_ipc_explorer: request: debug_describe_role(role='diffractometer.omega')
+2026-09-25 13:51:01,495 INFO     mxcube_ipc_explorer: request: debug_list_roles(role='diffractometer.omega')
+2026-09-25 13:51:01,521 INFO     mxcube_ipc_explorer: response: debug_describe_role(role='diffractometer.omega') -> {'role': 'diffractometer.omega', 'class': 'MotorMockup', 'roles': [], 'methods': {'HOConfig': {'signature': '(**kwargs)', 'schema': None}, 'SPECIFIC_STATES': {'signature': '(value, names=None, *, module=None, qualname=None, type=None, start=1, boundary=None)', 'schema': None}, 'STATES': {'signature': '(value, names=None, *, module=None, qualname=None, type=None, start=1, boundary=None)', 'schema': None}, 'abort': {'signature': '()', 'schema': {'properties': {}, 'title': 'AbortRequest', 'type': 'object'}}, 'add_channel': {'signature': '(attributes_dict: Dict[str, Any], channel: str, add_now: bool = True) -> Optional[mxcubecore.CommandContainer.ChannelObject]', 'schema': {'properties': {'attributes_dict': {'title': 'Attributes Dict', 'type': 'object'}, 'channel': {'title': 'Channel', 'type': 'string'}, 'add_now': {'default': True, 'title': 'Add Now', 'type': 'boolean'}}, 'required': ['attributes_dict', 'channel'], 'title': 'AddChannelRequest', 'type': 'object'}}, 'add_command': {'signature': '(arg1: Dict[str, Any], arg2: Optional[str] = None, add_now: bool = True) -> Optional[mxcubecore.CommandContainer.CommandObject]', 'schema': {'properties': {'arg1': {'title': 'Arg1', 'type': 'object'}, 'arg2': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None, 'title': 'Arg2'}, 'add_now': {'default': True, 'title': 'Add Now', 'type': 'boolean'}}, 'required': ['arg1'], 'title': 'AddCommandRequest', 'type': 'object'}}, 'add_reference': {'signature': '(name: str, reference: str, role: Optional[str] = None) -> None', 'schema': {'properties': {'name': {'title': 'Name', 'type': 'string'}, 'reference': {'title': 'Reference', 'type': 'string'}, 'role': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None, 'title': 'Role'}}, 'required': ['name', 'reference'], 'title': 'AddReferenceRequest', 'type': 'object'}}, 'clear_gevent': {'signature': '() -> None', 'schema': {'properties': {}, 'title': 'ClearGeventRequest', 'type': 'object'}}, 'commit_changes': {'signature... (10633 chars total)
+2026-09-25 13:51:01,537 INFO     mxcube_ipc_explorer: response: debug_list_roles(role='diffractometer.omega') -> {'role': 'diffractometer.omega', 'class': 'MotorMockup', 'roles': []}
+2026-09-25 13:51:02,606 INFO     mxcube_ipc_explorer: request: debug_list_roles(role='diffractometer.phiy')
+2026-09-25 13:51:02,608 INFO     mxcube_ipc_explorer: response: debug_list_roles(role='diffractometer.phiy') -> {'role': 'diffractometer.phiy', 'class': 'MotorMockup', 'roles': []}
+2026-09-25 13:51:04,423 INFO     mxcube_ipc_explorer: request: debug_describe_role(role='diffractometer.phiy')
+2026-09-25 13:51:04,452 INFO     mxcube_ipc_explorer: response: debug_describe_role(role='diffractometer.phiy') -> {'role': 'diffractometer.phiy', 'class': 'MotorMockup', 'roles': [], 'methods': {'HOConfig': {'signature': '(**kwargs)', 'schema': None}, 'SPECIFIC_STATES': {'signature': '(value, names=None, *, module=None, qualname=None, type=None, start=1, boundary=None)', 'schema': None}, 'STATES': {'signature': '(value, names=None, *, module=None, qualname=None, type=None, start=1, boundary=None)', 'schema': None}, 'abort': {'signature': '()', 'schema': {'properties': {}, 'title': 'AbortRequest', 'type': 'object'}}, 'add_channel': {'signature': '(attributes_dict: Dict[str, Any], channel: str, add_now: bool = True) -> Optional[mxcubecore.CommandContainer.ChannelObject]', 'schema': {'properties': {'attributes_dict': {'title': 'Attributes Dict', 'type': 'object'}, 'channel': {'title': 'Channel', 'type': 'string'}, 'add_now': {'default': True, 'title': 'Add Now', 'type': 'boolean'}}, 'required': ['attributes_dict', 'channel'], 'title': 'AddChannelRequest', 'type': 'object'}}, 'add_command': {'signature': '(arg1: Dict[str, Any], arg2: Optional[str] = None, add_now: bool = True) -> Optional[mxcubecore.CommandContainer.CommandObject]', 'schema': {'properties': {'arg1': {'title': 'Arg1', 'type': 'object'}, 'arg2': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None, 'title': 'Arg2'}, 'add_now': {'default': True, 'title': 'Add Now', 'type': 'boolean'}}, 'required': ['arg1'], 'title': 'AddCommandRequest', 'type': 'object'}}, 'add_reference': {'signature': '(name: str, reference: str, role: Optional[str] = None) -> None', 'schema': {'properties': {'name': {'title': 'Name', 'type': 'string'}, 'reference': {'title': 'Reference', 'type': 'string'}, 'role': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None, 'title': 'Role'}}, 'required': ['name', 'reference'], 'title': 'AddReferenceRequest', 'type': 'object'}}, 'clear_gevent': {'signature': '() -> None', 'schema': {'properties': {}, 'title': 'ClearGeventRequest', 'type': 'object'}}, 'commit_changes': {'signature'... (10632 chars total)
+2026-09-25 13:51:10,292 INFO     mxcube_ipc_explorer: request: debug_call(role='diffractometer.phiy', method='get_value', args=[], kwargs={})
+2026-09-25 13:51:10,301 INFO     mxcube_ipc_explorer: response: debug_call(role='diffractometer.phiy', method='get_value') -> 3.1099769413933744
+2026-09-25 13:51:29,865 INFO     mxcube_ipc_explorer: request: debug_call(role='diffractometer.phiy', method='get_value', args=[], kwargs={})
+2026-09-25 13:51:29,868 INFO     mxcube_ipc_explorer: response: debug_call(role='diffractometer.phiy', method='get_value') -> 3.1099769413933744
+2026-09-25 13:51:41,169 INFO     mxcube_ipc_explorer: request: connect(event='diffractometer.omega.valueChanged')
+2026-09-25 13:51:46,404 INFO     mxcube_ipc_explorer: request: debug_describe_role(role='diffractometer.omega')
+2026-09-25 13:51:46,445 INFO     mxcube_ipc_explorer: response: debug_describe_role(role='diffractometer.omega') -> {'role': 'diffractometer.omega', 'class': 'MotorMockup', 'roles': [], 'methods': {'HOConfig': {'signature': '(**kwargs)', 'schema': None}, 'SPECIFIC_STATES': {'signature': '(value, names=None, *, module=None, qualname=None, type=None, start=1, boundary=None)', 'schema': None}, 'STATES': {'signature': '(value, names=None, *, module=None, qualname=None, type=None, start=1, boundary=None)', 'schema': None}, 'abort': {'signature': '()', 'schema': {'properties': {}, 'title': 'AbortRequest', 'type': 'object'}}, 'add_channel': {'signature': '(attributes_dict: Dict[str, Any], channel: str, add_now: bool = True) -> Optional[mxcubecore.CommandContainer.ChannelObject]', 'schema': {'properties': {'attributes_dict': {'title': 'Attributes Dict', 'type': 'object'}, 'channel': {'title': 'Channel', 'type': 'string'}, 'add_now': {'default': True, 'title': 'Add Now', 'type': 'boolean'}}, 'required': ['attributes_dict', 'channel'], 'title': 'AddChannelRequest', 'type': 'object'}}, 'add_command': {'signature': '(arg1: Dict[str, Any], arg2: Optional[str] = None, add_now: bool = True) -> Optional[mxcubecore.CommandContainer.CommandObject]', 'schema': {'properties': {'arg1': {'title': 'Arg1', 'type': 'object'}, 'arg2': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None, 'title': 'Arg2'}, 'add_now': {'default': True, 'title': 'Add Now', 'type': 'boolean'}}, 'required': ['arg1'], 'title': 'AddCommandRequest', 'type': 'object'}}, 'add_reference': {'signature': '(name: str, reference: str, role: Optional[str] = None) -> None', 'schema': {'properties': {'name': {'title': 'Name', 'type': 'string'}, 'reference': {'title': 'Reference', 'type': 'string'}, 'role': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None, 'title': 'Role'}}, 'required': ['name', 'reference'], 'title': 'AddReferenceRequest', 'type': 'object'}}, 'clear_gevent': {'signature': '() -> None', 'schema': {'properties': {}, 'title': 'ClearGeventRequest', 'type': 'object'}}, 'commit_changes': {'signature... (10633 chars total)
+2026-09-25 13:52:08,061 INFO     mxcube_ipc_explorer: request: debug_call(role='diffractometer.omega', method='set_value', args=[2], kwargs={})
+2026-09-25 13:52:08,065 INFO     mxcube_ipc_explorer: response: debug_call(role='diffractometer.omega', method='set_value') -> None
+2026-09-25 13:52:08,112 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [46.989938603353394]}
+2026-09-25 13:52:08,114 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [44.9229687318324]}
+2026-09-25 13:52:08,127 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [42.868801938009156]}
+2026-09-25 13:52:08,150 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [40.80290495009412]}
+2026-09-25 13:52:08,171 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [38.72925935835828]}
+2026-09-25 13:52:08,188 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [36.670419560384644]}
+2026-09-25 13:52:08,213 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [34.6138924226283]}
+2026-09-25 13:52:08,237 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [32.54260717482556]}
+2026-09-25 13:52:08,254 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [30.474326001119508]}
+2026-09-25 13:52:08,271 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [28.415343151998414]}
+2026-09-25 13:52:08,292 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [26.35786233992566]}
+2026-09-25 13:52:08,315 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [24.303743229818238]}
+2026-09-25 13:52:08,333 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [22.23353086562146]}
+2026-09-25 13:52:08,355 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [20.17678915114392]}
+2026-09-25 13:52:08,374 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [18.120786534261597]}
+2026-09-25 13:52:08,399 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [16.049596653890504]}
+2026-09-25 13:52:08,420 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [13.993331776571168]}
+2026-09-25 13:52:08,437 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [11.930534230184449]}
+2026-09-25 13:52:08,456 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [9.868499623250855]}
+2026-09-25 13:52:08,482 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [7.805964337301148]}
+2026-09-25 13:52:08,501 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [5.736920224141969]}
+2026-09-25 13:52:08,520 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [3.6673277482508553]}
+2026-09-25 13:52:08,539 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [1.6106098756312264]}
+2026-09-25 13:52:08,566 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [2]}
+2026-09-25 17:34:10,978 INFO     mxcube_ipc_explorer: quitting
+2026-09-25 17:34:12,142 INFO     mxcube_ipc_explorer: === mxcube-ipc-explorer exiting ===
+2026-09-25 17:34:13,843 INFO     mxcube_ipc_explorer: === mxcube-ipc-explorer starting (log file: mxcube-ipc-explorer.log) ===
+2026-09-25 17:34:13,930 INFO     mxcube_ipc_explorer: app started
+2026-09-25 17:34:13,931 INFO     mxcube_ipc_explorer: connecting: {'token': '***', 'transport': 'nanomq', 'broker_host': 'localhost', 'broker_port': 1883, 'topic_prefix': 'mxcube/ipc'}
+2026-09-25 17:34:14,330 INFO     mxcube_ipc_explorer: connected
+2026-09-25 17:34:14,331 INFO     mxcube_ipc_explorer: whitelisted events: {'procedure.test_signal': {'role': 'procedure', 'signal': 'test_signal', 'args': None, 'args_schema': None}, 'diffractometer.omega.valueChanged': {'role': 'diffractometer.omega', 'signal': 'valueChanged', 'args': None, 'args_schema': None}}
+2026-09-25 17:34:14,342 INFO     mxcube_ipc_explorer: request: debug_list_roles(role='')
+2026-09-25 17:34:14,385 INFO     mxcube_ipc_explorer: response: debug_list_roles(role='') -> {'role': '', 'class': 'Beamline', 'roles': ['beam', 'beamline_actions', 'characterisation', 'collect', 'cryo', 'detector', 'diffractometer', 'energy', 'energy_scan', 'fast_shutter', 'flux', 'gphl_connection', 'gphl_workflow', 'ipc_gateway', 'ipc_server', 'lims', 'machine_info', 'procedure', 'queue_manager', 'queue_model', 'resolution', 'safety_shutter', 'sample_changer', 'sample_changer_maintenance', 'sample_view', 'session', 'transmission', 'workflow', 'xml_rpc_server', 'xray_centring', 'xrf_spectrum']}
+2026-09-25 17:34:19,354 INFO     mxcube_ipc_explorer: request: debug_call(role='queue_model', method='get_queue_dict', args=[], kwargs={})
+2026-09-25 17:34:19,365 INFO     mxcube_ipc_explorer: response: debug_call(role='queue_model', method='get_queue_dict') -> {'format_version': '0.0.1'}
+2026-09-25 17:34:26,723 INFO     mxcube_ipc_explorer: request: debug_list_roles(role='diffractometer')
+2026-09-25 17:34:26,726 INFO     mxcube_ipc_explorer: response: debug_list_roles(role='diffractometer') -> {'role': 'diffractometer', 'class': 'DiffractometerMockup', 'roles': ['aperture', 'backlight', 'backlightswitch', 'beamstop', 'capillary', 'focus', 'frontlight', 'frontlightswitch', 'fshutter', 'kappa', 'kappa_phi', 'omega', 'phiy', 'phiz', 'sampx', 'sampy', 'zoom']}
+2026-09-25 17:34:32,462 INFO     mxcube_ipc_explorer: request: debug_describe_role(role='diffractometer.omega')
+2026-09-25 17:34:32,462 INFO     mxcube_ipc_explorer: request: debug_list_roles(role='diffractometer.omega')
+2026-09-25 17:34:32,550 INFO     mxcube_ipc_explorer: response: debug_describe_role(role='diffractometer.omega') -> {'role': 'diffractometer.omega', 'class': 'MotorMockup', 'roles': [], 'methods': {'HOConfig': {'signature': '(**kwargs)', 'schema': None}, 'SPECIFIC_STATES': {'signature': '(value, names=None, *, module=None, qualname=None, type=None, start=1, boundary=None)', 'schema': None}, 'STATES': {'signature': '(value, names=None, *, module=None, qualname=None, type=None, start=1, boundary=None)', 'schema': None}, 'abort': {'signature': '()', 'schema': {'properties': {}, 'title': 'AbortRequest', 'type': 'object'}}, 'add_channel': {'signature': '(attributes_dict: Dict[str, Any], channel: str, add_now: bool = True) -> Optional[mxcubecore.CommandContainer.ChannelObject]', 'schema': {'properties': {'attributes_dict': {'title': 'Attributes Dict', 'type': 'object'}, 'channel': {'title': 'Channel', 'type': 'string'}, 'add_now': {'default': True, 'title': 'Add Now', 'type': 'boolean'}}, 'required': ['attributes_dict', 'channel'], 'title': 'AddChannelRequest', 'type': 'object'}}, 'add_command': {'signature': '(arg1: Dict[str, Any], arg2: Optional[str] = None, add_now: bool = True) -> Optional[mxcubecore.CommandContainer.CommandObject]', 'schema': {'properties': {'arg1': {'title': 'Arg1', 'type': 'object'}, 'arg2': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None, 'title': 'Arg2'}, 'add_now': {'default': True, 'title': 'Add Now', 'type': 'boolean'}}, 'required': ['arg1'], 'title': 'AddCommandRequest', 'type': 'object'}}, 'add_reference': {'signature': '(name: str, reference: str, role: Optional[str] = None) -> None', 'schema': {'properties': {'name': {'title': 'Name', 'type': 'string'}, 'reference': {'title': 'Reference', 'type': 'string'}, 'role': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None, 'title': 'Role'}}, 'required': ['name', 'reference'], 'title': 'AddReferenceRequest', 'type': 'object'}}, 'clear_gevent': {'signature': '() -> None', 'schema': {'properties': {}, 'title': 'ClearGeventRequest', 'type': 'object'}}, 'commit_changes': {'signature... (10533 chars total)
+2026-09-25 17:34:32,550 INFO     mxcube_ipc_explorer: response: debug_list_roles(role='diffractometer.omega') -> {'role': 'diffractometer.omega', 'class': 'MotorMockup', 'roles': []}
+2026-09-25 17:34:39,259 INFO     mxcube_ipc_explorer: request: connect(event='diffractometer.omega.valueChanged')
+2026-09-25 17:34:51,365 INFO     mxcube_ipc_explorer: request: debug_call(role='diffractometer.omega', method='set_value_relative', args=[2], kwargs={})
+2026-09-25 17:34:51,372 INFO     mxcube_ipc_explorer: response: debug_call(role='diffractometer.omega', method='set_value_relative') -> None
+2026-09-25 17:34:51,397 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [104.96416898996908]}
+2026-09-25 17:34:51,416 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [104.95208307535727]}
+2026-09-25 17:35:00,828 INFO     mxcube_ipc_explorer: request: debug_call(role='diffractometer.omega', method='set_value_relative', args=[100], kwargs={})
+2026-09-25 17:35:00,851 INFO     mxcube_ipc_explorer: response: debug_call(role='diffractometer.omega', method='set_value_relative') -> None
+2026-09-25 17:35:00,857 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [106.96486040384848]}
+2026-09-25 17:35:00,877 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [109.03545423777182]}
+2026-09-25 17:35:00,903 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [111.11725374491293]}
+2026-09-25 17:35:00,919 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [113.19526239664633]}
+2026-09-25 17:35:00,945 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [115.29210611612875]}
+2026-09-25 17:35:00,960 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [117.38658949167807]}
+2026-09-25 17:35:00,981 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [119.46941419870932]}
+2026-09-25 17:35:01,007 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [121.55481382639486]}
+2026-09-25 17:35:01,023 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [123.6625055912264]}
+2026-09-25 17:35:01,049 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [125.75408026011068]}
+2026-09-25 17:35:01,065 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [127.8577189090975]}
+2026-09-25 17:35:01,097 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [129.95065256388267]}
+2026-09-25 17:35:01,107 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [132.0467810276278]}
+2026-09-25 17:35:01,128 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [134.1342072132357]}
+2026-09-25 17:35:01,156 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [136.22811838419517]}
+2026-09-25 17:35:01,170 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [138.32627340586265]}
+2026-09-25 17:35:01,206 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [140.46195551188072]}
+2026-09-25 17:35:01,213 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [142.5619940403231]}
+2026-09-25 17:35:01,245 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [144.65137525827964]}
+2026-09-25 17:35:01,256 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [146.72187372477134]}
+2026-09-25 17:35:01,275 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [148.81957575113853]}
+2026-09-25 17:35:01,307 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [150.92845960886558]}
+2026-09-25 17:35:01,317 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [153.01624342234214]}
+2026-09-25 17:35:01,348 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [155.1096539142855]}
+2026-09-25 17:35:01,359 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [157.20702215464195]}
+2026-09-25 17:35:01,380 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [159.29580732615074]}
+2026-09-25 17:35:01,405 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [161.41027017862876]}
+2026-09-25 17:35:01,422 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [163.50961729319175]}
+2026-09-25 17:35:01,455 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [165.5992369297274]}
+2026-09-25 17:35:01,463 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [167.68790289194664]}
+2026-09-25 17:35:01,495 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [169.77602049143394]}
+2026-09-25 17:35:01,514 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [171.86697527201255]}
+2026-09-25 17:35:01,526 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [173.94405409128746]}
+2026-09-25 17:35:01,556 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [176.0496477726229]}
+2026-09-25 17:35:01,569 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [178.19670244486412]}
+2026-09-25 17:35:01,600 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [180.28670355112632]}
+2026-09-25 17:35:01,611 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [182.40419431955894]}
+2026-09-25 17:35:01,632 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [184.49026151926597]}
+2026-09-25 17:35:01,657 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [186.63486048014244]}
+2026-09-25 17:35:01,674 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [188.74925180704673]}
+2026-09-25 17:35:01,706 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [190.8715586307772]}
+2026-09-25 17:35:01,717 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [192.9817061069735]}
+2026-09-25 17:35:01,753 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [195.06977602274497]}
+2026-09-25 17:35:01,760 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [197.1840242985018]}
+2026-09-25 17:35:01,780 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [199.28778215677818]}
+2026-09-25 17:35:01,806 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [201.38891741068443]}
+2026-09-25 17:35:01,822 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [203.50454851420005]}
+2026-09-25 17:35:01,855 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [205.60327574045738]}
+2026-09-25 17:35:01,869 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [204.95208307535728]}
+2026-09-25 17:35:06,861 INFO     mxcube_ipc_explorer: request: debug_call(role='diffractometer.omega', method='set_velocity', args=[2], kwargs={})
+2026-09-25 17:35:06,865 INFO     mxcube_ipc_explorer: response: debug_call(role='diffractometer.omega', method='set_velocity') -> None
+2026-09-25 17:35:08,350 INFO     mxcube_ipc_explorer: request: debug_call(role='diffractometer.omega', method='set_velocity', args=[2], kwargs={})
+2026-09-25 17:35:08,355 INFO     mxcube_ipc_explorer: response: debug_call(role='diffractometer.omega', method='set_velocity') -> None
+2026-09-25 17:35:18,531 INFO     mxcube_ipc_explorer: request: debug_call(role='diffractometer.omega', method='set_value', args=[2], kwargs={'value': None, 'timeout': 0})
+2026-09-25 17:35:18,552 ERROR    mxcube_ipc_explorer: debug_call(role='diffractometer.omega', method='set_value') failed
+Traceback (most recent call last):
+  File "/home/oscarsso/projects/ai-work/mxcube/queue-refactor/mxcube-ipc-explorer/src/mxcube_ipc_explorer/app.py", line 454, in _do_call
+    result = client.debug_call(role, method, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oscarsso/projects/ai-work/mxcube/queue-refactor/mxcubecore/mxcubecore/ipc/client.py", line 402, in debug_call
+    return self._call(
+           ^^^^^^^^^^^
+  File "/home/oscarsso/projects/ai-work/mxcube/queue-refactor/mxcubecore/mxcubecore/ipc/client.py", line 335, in _call
+    raise MXCuBEIPCError(error["code"], error["message"])
+mxcubecore.ipc.client.MXCuBEIPCError: [-32603] ActuatorMockup.set_value() got multiple values for argument 'value'
+2026-09-25 17:35:29,641 ERROR    mxcube_ipc_explorer: local validation failed for role='diffractometer.omega' method='set_value': 'value' is a required property
+2026-09-25 17:35:42,253 ERROR    mxcube_ipc_explorer: local validation failed for role='diffractometer.omega' method='set_value': 'value' is a required property
+2026-09-25 17:35:50,772 INFO     mxcube_ipc_explorer: request: debug_call(role='diffractometer.omega', method='set_value', args=[], kwargs={'value': 2, 'timeout': 0})
+2026-09-25 17:35:50,779 INFO     mxcube_ipc_explorer: response: debug_call(role='diffractometer.omega', method='set_value') -> None
+2026-09-25 17:35:50,816 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [204.91175552637657]}
+2026-09-25 17:35:50,821 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [204.869457209421]}
+2026-09-25 17:35:50,851 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [204.8283695820101]}
+2026-09-25 17:35:50,862 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [204.78715606958946]}
+2026-09-25 17:35:50,894 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [204.74568744928916]}
+2026-09-25 17:35:50,911 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [204.7036776188143]}
+2026-09-25 17:35:50,925 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [204.6620139721163]}
+2026-09-25 17:35:50,958 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [204.62010141642173]}
+2026-09-25 17:35:50,966 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [204.5781516674288]}
+2026-09-25 17:35:50,998 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [204.53660198481163]}
+2026-09-25 17:35:51,010 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [204.49469419748863]}
+2026-09-25 17:35:51,030 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [204.45264097483238]}
+2026-09-25 17:35:51,055 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [204.41062637598594]}
+2026-09-25 17:35:51,072 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [204.36880966456016]}
+2026-09-25 17:35:51,106 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [204.32644792826255]}
+2026-09-25 17:35:51,114 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [204.28376480372032]}
+2026-09-25 17:35:51,141 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [204.2419633510836]}
+2026-09-25 17:35:51,159 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [204.199517214609]}
+2026-09-25 17:35:51,177 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [204.15772291452964]}
+2026-09-25 17:35:51,205 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [204.1158156040438]}
+2026-09-25 17:35:51,219 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [204.07349296839317]}
+2026-09-25 17:35:51,261 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [204.0317034366854]}
+2026-09-25 17:35:51,270 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [203.98945661814292]}
+2026-09-25 17:35:51,293 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [203.94640632898887]}
+2026-09-25 17:35:51,309 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [203.9045495632418]}
+2026-09-25 17:35:51,325 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [203.86293693811973]}
+2026-09-25 17:35:51,357 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [203.82107826502403]}
+2026-09-25 17:35:51,376 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [203.77930351526817]}
+2026-09-25 17:35:51,398 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [203.7375402096041]}
+2026-09-25 17:35:51,408 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [203.69631096155723]}
+2026-09-25 17:35:51,430 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [203.6548084858187]}
+2026-09-25 17:35:51,454 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [203.61308046610435]}
+2026-09-25 17:35:51,479 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [203.57019277842124]}
+2026-09-25 17:35:51,495 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [203.5286826732882]}
+2026-09-25 17:35:51,512 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [203.48726793558677]}
+2026-09-25 17:35:51,534 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [203.44610544474205]}
+2026-09-25 17:35:51,553 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [203.40428062708457]}
+2026-09-25 17:35:51,584 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [203.3627833965548]}
+2026-09-25 17:35:51,596 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [203.31917949946006]}
+2026-09-25 17:35:51,633 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [203.27737375528892]}
+2026-09-25 17:35:51,645 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [203.23534914286216]}
+2026-09-25 17:35:51,659 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [203.19333406717857]}
+2026-09-25 17:35:51,686 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [203.1520261410006]}
+2026-09-25 17:35:51,702 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [203.10973306925376]}
+2026-09-25 17:35:51,735 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [203.06658455164512]}
+2026-09-25 17:35:51,743 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [203.02478929789146]}
+2026-09-25 17:35:51,764 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [202.98301883967002]}
+2026-09-25 17:35:51,787 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [202.941132033182]}
+2026-09-25 17:35:51,806 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [202.89978119165977]}
+2026-09-25 17:35:51,839 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [202.85819383890708]}
+2026-09-25 17:35:51,848 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [202.8165869358309]}
+2026-09-25 17:35:51,964 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [202.77478596003135]}
+2026-09-25 17:35:51,965 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [202.733142340494]}
+2026-09-25 17:35:51,966 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [202.6914991977938]}
+2026-09-25 17:35:51,967 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [202.65003439219078]}
+2026-09-25 17:35:51,968 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [202.60900636942466]}
+2026-09-25 17:35:51,971 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [202.5679115894564]}
+2026-09-25 17:35:51,997 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [202.5266222599276]}
+2026-09-25 17:35:52,012 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [202.48539730341514]}
+2026-09-25 17:35:52,037 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [202.44428440363487]}
+2026-09-25 17:35:52,062 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [202.40262409479698]}
+2026-09-25 17:35:52,078 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [202.3611688259371]}
+2026-09-25 17:35:52,095 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [202.3198351505526]}
+2026-09-25 17:35:52,121 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [202.27865358622154]}
+2026-09-25 17:35:52,145 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [202.23729702265342]}
+2026-09-25 17:35:52,163 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [202.19548460276206]}
+2026-09-25 17:35:52,178 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [202.15423675806602]}
+2026-09-25 17:35:52,199 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [202.11305567057212]}
+2026-09-25 17:35:52,226 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [202.0716080311068]}
+2026-09-25 17:35:52,246 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [202.0303949955233]}
+2026-09-25 17:35:52,261 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [201.98829742701133]}
+2026-09-25 17:35:52,287 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [201.94640108378013]}
+2026-09-25 17:35:52,309 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [201.9049453380831]}
+2026-09-25 17:35:52,328 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [201.86346479685386]}
+2026-09-25 17:35:52,344 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [201.82165046961387]}
+2026-09-25 17:35:52,370 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [201.78038641245445]}
+2026-09-25 17:35:52,396 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [201.7391729000338]}
+2026-09-25 17:35:52,413 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [201.69774719507774]}
+2026-09-25 17:35:52,431 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [201.65606542856773]}
+2026-09-25 17:35:52,455 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [201.61472889216026]}
+2026-09-25 17:35:52,476 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [201.57345434458335]}
+2026-09-25 17:35:52,498 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [201.5320000293978]}
+2026-09-25 17:35:52,510 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [201.49057575495323]}
+2026-09-25 17:35:52,531 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [201.44911762507041]}
+2026-09-25 17:35:52,553 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [201.4078077915438]}
+2026-09-25 17:35:52,578 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [201.36647220881065]}
+2026-09-25 17:35:52,595 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [201.32485290796836]}
+2026-09-25 17:35:52,613 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [201.28355642588218]}
+2026-09-25 17:35:52,637 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [201.2423114422091]}
+2026-09-25 17:35:52,661 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [201.20102688105186]}
+2026-09-25 17:35:52,678 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [201.1595954540499]}
+2026-09-25 17:35:52,697 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [201.1172828319796]}
+2026-09-25 17:35:52,722 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [201.07616421015342]}
+2026-09-25 17:35:52,745 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [201.03472133905967]}
+2026-09-25 17:35:52,765 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [200.99344726831993]}
+2026-09-25 17:35:52,780 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [200.95131679804405]}
+2026-09-25 17:35:52,806 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [200.90967174799522]}
+2026-09-25 17:35:52,828 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [200.86819692881187]}
+2026-09-25 17:35:52,848 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [200.8269061687716]}
+2026-09-25 17:35:52,871 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [200.78554626734336]}
+2026-09-25 17:35:52,894 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [200.744119608713]}
+2026-09-25 17:35:52,911 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [200.70260616571983]}
+2026-09-25 17:35:52,927 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [200.66127535135826]}
+2026-09-25 17:35:52,945 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [200.61966463358482]}
+2026-09-25 17:35:52,970 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [200.57827993662437]}
+2026-09-25 17:35:52,995 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [200.53683086664756]}
+2026-09-25 17:35:53,020 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [200.4954018238314]}
+2026-09-25 17:35:53,029 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [200.45410581858238]}
+2026-09-25 17:35:53,057 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [200.41256424219688]}
+2026-09-25 17:35:53,078 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [200.37102504999717]}
+2026-09-25 17:35:53,097 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [200.32956501276573]}
+2026-09-25 17:35:53,112 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [200.28804107935508]}
+2026-09-25 17:35:53,132 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [200.24670263559898]}
+2026-09-25 17:35:53,162 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [200.20541950495323]}
+2026-09-25 17:35:53,179 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [200.163966143442]}
+2026-09-25 17:35:53,194 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [200.1222509983309]}
+2026-09-25 17:35:53,215 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [200.08112856180747]}
+2026-09-25 17:35:53,245 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [200.04000135691246]}
+2026-09-25 17:35:53,262 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [199.99842926294883]}
+2026-09-25 17:35:53,277 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [199.9559239986666]}
+2026-09-25 17:35:53,298 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [199.91476961405357]}
+2026-09-25 17:35:53,327 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [199.87354561121543]}
+2026-09-25 17:35:53,345 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [199.83213468821128]}
+2026-09-25 17:35:53,360 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [199.78975578577598]}
+2026-09-25 17:35:53,381 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [199.74870821268638]}
+2026-09-25 17:35:53,411 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [199.70757766993125]}
+2026-09-25 17:35:53,429 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [199.66607805521568]}
+2026-09-25 17:35:53,443 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [199.62478538782676]}
+2026-09-25 17:35:53,464 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [199.58358713419517]}
+2026-09-25 17:35:53,488 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [199.54226251871665]}
+2026-09-25 17:35:53,520 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [199.50071569712242]}
+2026-09-25 17:35:53,526 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [199.4593648556002]}
+2026-09-25 17:35:53,546 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [199.4180707576998]}
+2026-09-25 17:35:53,570 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [199.3764824512728]}
+2026-09-25 17:35:53,593 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [199.3353562000521]}
+2026-09-25 17:35:53,612 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [199.29410692484458]}
+2026-09-25 17:35:53,629 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [199.25257011683067]}
+2026-09-25 17:35:53,653 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [199.21146580011924]}
+2026-09-25 17:35:53,678 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [199.17002245218833]}
+2026-09-25 17:35:53,696 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [199.1286582592257]}
+2026-09-25 17:35:53,712 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [199.08668228418907]}
+2026-09-25 17:35:53,737 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [199.04526087076744]}
+2026-09-25 17:35:53,761 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [199.00391527445396]}
+2026-09-25 17:35:53,780 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [198.96196647913536]}
+2026-09-25 17:35:53,795 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [198.92065283091148]}
+2026-09-25 17:35:53,821 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [198.87939831049522]}
+2026-09-25 17:35:53,845 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [198.83801361353477]}
+2026-09-25 17:35:53,863 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [198.79660316736778]}
+2026-09-25 17:35:53,878 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [198.75512787134727]}
+2026-09-25 17:35:53,903 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [198.71380707056602]}
+2026-09-25 17:35:53,929 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [198.67220445902427]}
+2026-09-25 17:35:53,945 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [198.63048025400718]}
+2026-09-25 17:35:53,961 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [198.58841844828208]}
+2026-09-25 17:35:53,989 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [198.54696413309654]}
+2026-09-25 17:35:54,012 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [198.50548740656455]}
+2026-09-25 17:35:54,040 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [198.4638175609835]}
+2026-09-25 17:35:54,044 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [198.4217319134005]}
+2026-09-25 17:35:54,073 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [198.3806066158541]}
+2026-09-25 17:35:54,095 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [198.33929821283897]}
+2026-09-25 17:35:54,112 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [198.29742857248863]}
+2026-09-25 17:35:54,128 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [198.25552984507164]}
+2026-09-25 17:35:54,148 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [198.21409746439537]}
+2026-09-25 17:35:54,176 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [198.17275902063926]}
+2026-09-25 17:35:54,195 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [198.1313709858187]}
+2026-09-25 17:35:54,212 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [198.08888002665122]}
+2026-09-25 17:35:54,232 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [198.0469679477938]}
+2026-09-25 17:35:54,260 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [198.00552316935142]}
+2026-09-25 17:35:54,278 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [197.96363302500328]}
+2026-09-25 17:35:54,295 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [197.92188783915122]}
+2026-09-25 17:35:54,315 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [197.8804468754061]}
+2026-09-25 17:35:54,343 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [197.83915373118003]}
+2026-09-25 17:35:54,363 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [197.79750582010826]}
+2026-09-25 17:35:54,378 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [197.75557848246177]}
+2026-09-25 17:35:54,398 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [197.71439453394493]}
+2026-09-25 17:35:54,428 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [197.67320295603355]}
+2026-09-25 17:35:54,455 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [197.63192507059654]}
+2026-09-25 17:35:54,460 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [197.5906715038546]}
+2026-09-25 17:35:54,480 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [197.5495838764437]}
+2026-09-25 17:35:54,504 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [197.50856300623497]}
+2026-09-25 17:35:54,524 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [197.46734472544273]}
+2026-09-25 17:35:54,545 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [197.42605539591392]}
+2026-09-25 17:35:54,563 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [197.38490625650962]}
+2026-09-25 17:35:54,588 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [197.34360882074913]}
+2026-09-25 17:35:54,615 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [197.30219789774497]}
+2026-09-25 17:35:54,625 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [197.2603230121859]}
+2026-09-25 17:35:54,646 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [197.21871658594688]}
+2026-09-25 17:35:54,675 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [197.17730184824546]}
+2026-09-25 17:35:54,695 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [197.13583132059654]}
+2026-09-25 17:35:54,717 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [197.09354730875572]}
+2026-09-25 17:35:54,730 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [197.05195328028282]}
+2026-09-25 17:35:54,766 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [197.0103616359957]}
+2026-09-25 17:35:54,772 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [196.96851154596885]}
+2026-09-25 17:35:54,793 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [196.9263910892733]}
+2026-09-25 17:35:54,822 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [196.8846840503939]}
+2026-09-25 17:35:54,835 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [196.84267421991905]}
+2026-09-25 17:35:54,861 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [196.8009209278353]}
+2026-09-25 17:35:54,876 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [196.75907846720298]}
+2026-09-25 17:35:54,898 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [196.71729418070396]}
+2026-09-25 17:35:54,926 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [196.6753048542269]}
+2026-09-25 17:35:54,940 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [196.63337751658042]}
+2026-09-25 17:35:54,971 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [196.5913138035067]}
+2026-09-25 17:35:54,981 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [196.54935642511924]}
+2026-09-25 17:35:55,013 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [196.50763031275352]}
+2026-09-25 17:35:55,026 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [196.46562858851036]}
+2026-09-25 17:35:55,044 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [196.42389150889]}
+2026-09-25 17:35:55,073 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [196.38208099634727]}
+2026-09-25 17:35:55,086 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [196.34011408121665]}
+2026-09-25 17:35:55,117 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [196.2982868793734]}
+2026-09-25 17:35:55,128 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [196.25663086206993]}
+2026-09-25 17:35:55,149 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [196.21487375528892]}
+2026-09-25 17:35:55,175 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [196.1731567028292]}
+2026-09-25 17:35:55,191 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [196.13130232126792]}
+2026-09-25 17:35:55,217 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [196.08942838938316]}
+2026-09-25 17:35:55,233 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [196.04663225443443]}
+2026-09-25 17:35:55,264 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [196.00462766916831]}
+2026-09-25 17:35:55,279 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [195.96154924662193]}
+2026-09-25 17:35:55,297 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [195.91908880503257]}
+2026-09-25 17:35:55,324 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [195.8771624210604]}
+2026-09-25 17:35:55,339 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [195.83496662409385]}
+2026-09-25 17:35:55,374 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [195.79269119532188]}
+2026-09-25 17:35:55,381 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [195.7502402904757]}
+2026-09-25 17:35:55,418 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [195.7082194927462]}
+2026-09-25 17:35:55,426 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [195.66598745615562]}
+2026-09-25 17:35:55,444 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [195.62428709299644]}
+2026-09-25 17:35:55,472 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [195.58236213953575]}
+2026-09-25 17:35:55,486 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [195.54012342722496]}
+2026-09-25 17:35:55,522 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [195.49785753519615]}
+2026-09-25 17:35:55,528 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [195.45524450571617]}
+2026-09-25 17:35:55,560 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [195.4131779316195]}
+2026-09-25 17:35:55,575 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [195.37077661783775]}
+2026-09-25 17:35:55,592 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [195.32837864191612]}
+2026-09-25 17:35:55,622 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [195.28640552790245]}
+2026-09-25 17:35:55,635 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [195.24384876520713]}
+2026-09-25 17:35:55,665 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [195.2017130497225]}
+2026-09-25 17:35:55,677 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [195.1598224285372]}
+2026-09-25 17:35:55,697 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [195.11677547724327]}
+2026-09-25 17:35:55,719 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [195.07493397028526]}
+2026-09-25 17:35:55,740 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [195.03302952082237]}
+2026-09-25 17:35:55,772 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [194.99145265848716]}
+2026-09-25 17:35:55,781 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [194.94860740931114]}
+2026-09-25 17:35:55,814 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [194.90708156855186]}
+2026-09-25 17:35:55,826 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [194.8646349552401]}
+2026-09-25 17:35:55,845 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [194.82238909037193]}
+2026-09-25 17:35:55,873 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [194.78057380945762]}
+2026-09-25 17:35:55,887 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [194.73824211390098]}
+2026-09-25 17:35:55,925 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [194.69660421640953]}
+2026-09-25 17:35:55,929 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [194.6542596462496]}
+2026-09-25 17:35:55,960 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [194.61191412241539]}
+2026-09-25 17:35:55,975 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [194.56995769770225]}
+2026-09-25 17:35:55,992 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [194.52824875147422]}
+2026-09-25 17:35:56,022 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [194.48628612787803]}
+2026-09-25 17:35:56,034 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [194.44419571192344]}
+2026-09-25 17:35:56,073 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [194.40216108591636]}
+2026-09-25 17:35:56,076 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [194.35999294550498]}
+2026-09-25 17:35:56,097 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [194.31798073084434]}
+2026-09-25 17:35:56,122 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [194.27582451136192]}
+2026-09-25 17:35:56,140 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [194.23327442438682]}
+2026-09-25 17:35:56,166 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [194.19105383188804]}
+2026-09-25 17:35:56,182 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [194.1488499286898]}
+2026-09-25 17:35:56,213 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [194.10721918375572]}
+2026-09-25 17:35:56,225 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [194.0650081280001]}
+2026-09-25 17:35:56,245 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [194.02271219523033]}
+2026-09-25 17:35:56,343 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [193.98095842630943]}
+2026-09-25 17:35:56,350 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [193.93801256449302]}
+2026-09-25 17:35:56,351 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [193.896378958536]}
+2026-09-25 17:35:56,352 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [193.85485264093955]}
+2026-09-25 17:35:56,353 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [193.81305166514]}
+2026-09-25 17:35:56,379 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [193.771782839609]}
+2026-09-25 17:35:56,395 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [193.73036524088462]}
+2026-09-25 17:35:56,411 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [193.688784087015]}
+2026-09-25 17:35:56,437 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [193.64703985483726]}
+2026-09-25 17:35:56,454 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [193.60577245981773]}
+2026-09-25 17:35:56,480 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [193.5642757061251]}
+2026-09-25 17:35:56,494 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [193.52249857218345]}
+2026-09-25 17:35:56,515 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [193.4812211635836]}
+2026-09-25 17:35:56,542 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [193.4398073795565]}
+2026-09-25 17:35:56,560 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [193.3982157352694]}
+2026-09-25 17:35:56,578 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [193.35669847757896]}
+2026-09-25 17:35:56,598 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [193.315408671213]}
+2026-09-25 17:35:56,626 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [193.2741169574984]}
+2026-09-25 17:35:56,646 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [193.23263260157188]}
+2026-09-25 17:35:56,662 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [193.19052931101402]}
+2026-09-25 17:35:56,681 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [193.14911648066123]}
+2026-09-25 17:35:56,705 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [193.10744043619712]}
+2026-09-25 17:35:56,728 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [193.06554123194297]}
+2026-09-25 17:35:56,744 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [193.02353998453697]}
+2026-09-25 17:35:56,765 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [192.98207947046836]}
+2026-09-25 17:35:56,793 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [192.94007726938804]}
+2026-09-25 17:35:56,811 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [192.89846226008018]}
+2026-09-25 17:35:56,829 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [192.8566856029757]}
+2026-09-25 17:35:56,847 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [192.81546064646324]}
+2026-09-25 17:35:56,870 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [192.77423855097373]}
+2026-09-25 17:35:56,894 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [192.73294636042198]}
+2026-09-25 17:35:56,911 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [192.69084640772422]}
+2026-09-25 17:35:56,930 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [192.64974256784996]}
+2026-09-25 17:35:56,954 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [192.60862299234947]}
+2026-09-25 17:35:56,977 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [192.5671848896273]}
+2026-09-25 17:35:56,995 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [192.5250091198214]}
+2026-09-25 17:35:57,014 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [192.48338791163047]}
+2026-09-25 17:35:57,037 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [192.44186016352256]}
+2026-09-25 17:35:57,063 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [192.40039869577964]}
+2026-09-25 17:35:57,078 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [192.35853382380088]}
+2026-09-25 17:35:57,097 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [192.31709953577598]}
+2026-09-25 17:35:57,121 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [192.27571388514122]}
+2026-09-25 17:35:57,146 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [192.23437877924522]}
+2026-09-25 17:35:57,162 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [192.19297119410118]}
+2026-09-25 17:35:57,179 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [192.1516542080172]}
+2026-09-25 17:35:57,204 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [192.11043020517906]}
+2026-09-25 17:35:57,229 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [192.0689816120394]}
+2026-09-25 17:35:57,245 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [192.02775522501548]}
+2026-09-25 17:35:57,262 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [191.98645445139488]}
+2026-09-25 17:35:57,287 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [191.94469162256797]}
+2026-09-25 17:35:57,312 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [191.90354009897789]}
+2026-09-25 17:35:57,329 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [191.86224075586875]}
+2026-09-25 17:35:57,345 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [191.82071968348106]}
+2026-09-25 17:35:57,371 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [191.77950569422325]}
+2026-09-25 17:35:57,396 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [191.73791929514488]}
+2026-09-25 17:35:57,412 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [191.69660946161827]}
+2026-09-25 17:35:57,428 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [191.6551475170382]}
+2026-09-25 17:35:57,454 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [191.61390205652793]}
+2026-09-25 17:35:57,478 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [191.5723299625643]}
+2026-09-25 17:35:57,506 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [191.53075405390342]}
+2026-09-25 17:35:57,511 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [191.48938366205772]}
+2026-09-25 17:35:57,531 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [191.4481434467562]}
+2026-09-25 17:35:57,560 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [191.4068245533236]}
+2026-09-25 17:35:57,581 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [191.36546369822105]}
+2026-09-25 17:35:57,593 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [191.3238110187777]}
+2026-09-25 17:35:57,614 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [191.28259512217124]}
+2026-09-25 17:35:57,639 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [191.2413701656588]}
+2026-09-25 17:35:57,663 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [191.20008846552452]}
+2026-09-25 17:35:57,678 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [191.15822407038291]}
+2026-09-25 17:35:57,697 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [191.1163234356173]}
+2026-09-25 17:35:57,720 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [191.0752529743441]}
+2026-09-25 17:35:57,747 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [191.03393408091148]}
+2026-09-25 17:35:57,762 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [190.9923648479708]}
+2026-09-25 17:35:57,780 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [190.95037409098228]}
+2026-09-25 17:35:57,805 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [190.90931507380088]}
+2026-09-25 17:35:57,828 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [190.8681554439791]}
+2026-09-25 17:35:57,844 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [190.82672306330284]}
+2026-09-25 17:35:57,862 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [190.78556915552696]}
+2026-09-25 17:35:57,888 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [190.74445053370079]}
+2026-09-25 17:35:57,915 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [190.70325084955772]}
+2026-09-25 17:35:57,926 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [190.66164871485313]}
+2026-09-25 17:35:57,946 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [190.61981960566123]}
+2026-09-25 17:35:57,973 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [190.57749553949913]}
+2026-09-25 17:35:57,995 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [190.5349139812716]}
+2026-09-25 17:35:58,011 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [190.49340149195274]}
+2026-09-25 17:35:58,029 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [190.45221992762168]}
+2026-09-25 17:35:58,055 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [190.41084762842735]}
+2026-09-25 17:35:58,079 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [190.36872097284873]}
+2026-09-25 17:35:58,096 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [190.32540413172325]}
+2026-09-25 17:35:58,113 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [190.28423448832115]}
+2026-09-25 17:35:58,138 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [190.24284549982627]}
+2026-09-25 17:35:58,163 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [190.20139070780357]}
+2026-09-25 17:35:58,178 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [190.1595511081942]}
+2026-09-25 17:35:58,196 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [190.1183700207003]}
+2026-09-25 17:35:58,221 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [190.07714268000205]}
+2026-09-25 17:35:58,246 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [190.03570696146568]}
+2026-09-25 17:35:58,263 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [189.99420114786705]}
+2026-09-25 17:35:58,279 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [189.95250412256797]}
+2026-09-25 17:35:58,304 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [189.91143080027183]}
+2026-09-25 17:35:58,328 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [189.87011810572227]}
+2026-09-25 17:35:58,346 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [189.8287152889498]}
+2026-09-25 17:35:58,362 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [189.7870154026278]}
+2026-09-25 17:35:58,389 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [189.74545904429039]}
+2026-09-25 17:35:58,412 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [189.70376583368858]}
+2026-09-25 17:35:58,429 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [189.66218038828453]}
+2026-09-25 17:35:58,445 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [189.62088485987266]}
+2026-09-25 17:35:58,466 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [189.57957121164878]}
+2026-09-25 17:35:58,498 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [189.53827520639976]}
+2026-09-25 17:35:58,507 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [189.49688288004478]}
+2026-09-25 17:35:58,528 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [189.45541902811607]}
+2026-09-25 17:35:58,548 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [189.41421171457847]}
+2026-09-25 17:35:58,577 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [189.37292715342124]}
+2026-09-25 17:35:58,598 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [189.33163162500938]}
+2026-09-25 17:35:58,610 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [189.29017015726646]}
+2026-09-25 17:35:58,631 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [189.24876257212242]}
+2026-09-25 17:35:58,659 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [189.20747610361656]}
+2026-09-25 17:35:58,679 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [189.16620537073692]}
+2026-09-25 17:35:58,694 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [189.12483927042564]}
+2026-09-25 17:35:58,714 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [189.08320900232872]}
+2026-09-25 17:35:58,737 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [189.04191728861412]}
+2026-09-25 17:35:58,763 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [189.00062271387657]}
+2026-09-25 17:35:58,781 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [188.95884081156333]}
+2026-09-25 17:35:58,797 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [188.91707416803916]}
+2026-09-25 17:35:58,824 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [188.8757342937716]}
+2026-09-25 17:35:58,845 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [188.83423992426475]}
+2026-09-25 17:35:58,862 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [188.79235740931114]}
+2026-09-25 17:35:58,880 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [188.7511324527987]}
+2026-09-25 17:35:58,905 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [188.70990129740318]}
+2026-09-25 17:35:58,926 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [188.66865583689292]}
+2026-09-25 17:35:58,944 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [188.62661644251426]}
+2026-09-25 17:35:58,962 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [188.58539243967613]}
+2026-09-25 17:35:58,987 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [188.54426380426963]}
+2026-09-25 17:35:59,011 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [188.50314756662925]}
+2026-09-25 17:35:59,028 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [188.46172329218467]}
+2026-09-25 17:35:59,045 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [188.42036434443077]}
+2026-09-25 17:35:59,070 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [188.37910839350303]}
+2026-09-25 17:35:59,095 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [188.337709868265]}
+2026-09-25 17:35:59,113 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [188.2963609340914]}
+2026-09-25 17:35:59,128 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [188.25504394800743]}
+2026-09-25 17:35:59,154 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [188.2134751919039]}
+2026-09-25 17:35:59,177 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [188.17186828882774]}
+2026-09-25 17:35:59,196 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [188.1305417660006]}
+2026-09-25 17:35:59,212 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [188.0887536648043]}
+2026-09-25 17:35:59,237 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [188.04717727930625]}
+2026-09-25 17:35:59,259 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [188.00511213572105]}
+2026-09-25 17:35:59,280 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [187.96394392283042]}
+2026-09-25 17:35:59,305 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [187.9221472385653]}
+2026-09-25 17:35:59,328 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [187.88074728281578]}
+2026-09-25 17:35:59,346 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [187.8390378597506]}
+2026-09-25 17:35:59,357 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [187.7976832035311]}
+2026-09-25 17:35:59,378 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [187.7562045696505]}
+2026-09-25 17:35:59,398 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [187.7148761394747]}
+2026-09-25 17:35:59,428 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [187.6736368778475]}
+2026-09-25 17:35:59,447 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [187.63234134943565]}
+2026-09-25 17:35:59,461 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [187.59078260691246]}
+2026-09-25 17:35:59,481 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [187.54973360331138]}
+2026-09-25 17:35:59,504 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [187.50828119547447]}
+2026-09-25 17:35:59,529 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [187.46670099527915]}
+2026-09-25 17:35:59,545 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [187.4253244045504]}
+2026-09-25 17:35:59,563 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [187.38402744562705]}
+2026-09-25 17:35:59,587 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [187.34267326624473]}
+2026-09-25 17:35:59,612 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [187.30137535364707]}
+2026-09-25 17:35:59,629 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [187.2597126606234]}
+2026-09-25 17:35:59,646 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [187.21841665537437]}
+2026-09-25 17:35:59,671 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [187.17707344324668]}
+2026-09-25 17:35:59,697 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [187.13569542200645]}
+2026-09-25 17:35:59,713 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [187.09323307306846]}
+2026-09-25 17:35:59,729 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [187.05192657740196]}
+2026-09-25 17:35:59,754 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [187.01070877344688]}
+2026-09-25 17:35:59,779 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [186.96929785044273]}
+2026-09-25 17:35:59,795 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [186.9273104313143]}
+2026-09-25 17:35:59,812 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [186.88609548838218]}
+2026-09-25 17:35:59,837 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [186.8446449878939]}
+2026-09-25 17:35:59,863 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [186.8033647182711]}
+2026-09-25 17:35:59,878 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [186.7616805675753]}
+2026-09-25 17:35:59,895 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [186.7199988010653]}
+2026-09-25 17:35:59,921 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [186.67849727900108]}
+2026-09-25 17:35:59,945 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [186.6372999790438]}
+2026-09-25 17:35:59,963 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [186.59583231241783]}
+2026-09-25 17:35:59,978 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [186.55369516642173]}
+2026-09-25 17:36:00,005 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [186.51236816675743]}
+2026-09-25 17:36:00,030 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [186.47110887796958]}
+2026-09-25 17:36:00,045 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [186.42957302362998]}
+2026-09-25 17:36:00,061 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [186.38820644648155]}
+2026-09-25 17:36:00,082 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [186.34690758020957]}
+2026-09-25 17:36:00,112 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [186.30545326502403]}
+2026-09-25 17:36:00,129 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [186.26404758722862]}
+2026-09-25 17:36:00,144 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [186.22245928080162]}
+2026-09-25 17:36:00,165 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [186.1810946110018]}
+2026-09-25 17:36:00,193 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [186.1397094372042]}
+2026-09-25 17:36:00,215 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [186.09824034006675]}
+2026-09-25 17:36:00,227 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [186.05672165186485]}
+2026-09-25 17:36:00,248 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [186.0154704693087]}
+2026-09-25 17:36:00,277 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [185.97427650721153]}
+2026-09-25 17:36:00,296 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [185.93248363764366]}
+2026-09-25 17:36:00,310 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [185.8910545948275]}
+2026-09-25 17:36:00,330 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [185.84987064631065]}
+2026-09-25 17:36:00,354 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [185.80855079920372]}
+2026-09-25 17:36:00,378 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [185.76715513498863]}
+2026-09-25 17:36:00,397 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [185.72557350428184]}
+2026-09-25 17:36:00,413 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [185.68430706293663]}
+2026-09-25 17:36:00,438 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [185.64310213358482]}
+2026-09-25 17:36:00,463 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [185.60157295496543]}
+2026-09-25 17:36:00,479 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [185.55967422754844]}
+2026-09-25 17:36:00,496 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [185.51786562235435]}
+2026-09-25 17:36:00,521 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [185.47659345896324]}
+2026-09-25 17:36:00,545 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [185.43512197764]}
+2026-09-25 17:36:00,562 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [185.39332004816612]}
+2026-09-25 17:36:00,579 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [185.35208078653892]}
+2026-09-25 17:36:00,604 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [185.310721838785]}
+2026-09-25 17:36:00,628 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [185.26835390360435]}
+2026-09-25 17:36:00,647 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [185.22699257166465]}
+2026-09-25 17:36:00,662 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [185.1856546047457]}
+2026-09-25 17:36:00,688 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [185.14452978403648]}
+2026-09-25 17:36:00,712 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [185.1022805813082]}
+2026-09-25 17:36:00,737 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [185.06056543619712]}
+2026-09-25 17:36:00,746 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [185.0191268566378]}
+2026-09-25 17:36:00,774 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [184.97774311335166]}
+2026-09-25 17:36:00,796 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [184.9348411205538]}
+2026-09-25 17:36:00,813 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [184.89287372858604]}
+2026-09-25 17:36:00,830 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [184.85152050287803]}
+2026-09-25 17:36:00,854 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [184.8103456142672]}
+2026-09-25 17:36:00,878 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [184.76915212900718]}
+2026-09-25 17:36:00,973 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [184.72747274668296]}
+2026-09-25 17:36:00,974 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [184.68606706888755]}
+2026-09-25 17:36:00,975 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [184.64463850290855]}
+2026-09-25 17:36:00,976 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [184.60351940424522]}
+2026-09-25 17:36:00,977 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [184.56247230799278]}
+2026-09-25 17:36:00,995 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [184.52093311579307]}
+2026-09-25 17:36:01,020 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [184.47952314646324]}
+2026-09-25 17:36:01,044 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [184.43817659647544]}
+2026-09-25 17:36:01,065 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [184.39680620462974]}
+2026-09-25 17:36:01,078 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [184.3550381305941]}
+2026-09-25 17:36:01,099 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [184.3135432842501]}
+2026-09-25 17:36:01,129 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [184.272063219858]}
+2026-09-25 17:36:01,148 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [184.23063083918174]}
+2026-09-25 17:36:01,161 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [184.18884273798545]}
+2026-09-25 17:36:01,189 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [184.14770885737022]}
+2026-09-25 17:36:01,213 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [184.10636183054527]}
+2026-09-25 17:36:01,230 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [184.06436630518516]}
+2026-09-25 17:36:01,244 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [184.02261348993858]}
+2026-09-25 17:36:01,265 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [183.98123689920982]}
+2026-09-25 17:36:01,292 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [183.9395084026583]}
+2026-09-25 17:36:01,312 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [183.898124182535]}
+2026-09-25 17:36:01,327 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [183.85642143519004]}
+2026-09-25 17:36:01,348 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [183.81490799219688]}
+2026-09-25 17:36:01,375 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [183.77351375849327]}
+2026-09-25 17:36:01,394 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [183.7321223858126]}
+2026-09-25 17:36:01,411 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [183.6904735210665]}
+2026-09-25 17:36:01,431 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [183.64852043421348]}
+2026-09-25 17:36:01,459 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [183.60721393854698]}
+2026-09-25 17:36:01,479 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [183.56591078074058]}
+2026-09-25 17:36:01,494 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [183.52410980494102]}
+2026-09-25 17:36:01,514 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [183.4828114155062]}
+2026-09-25 17:36:01,538 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [183.44137760431846]}
+2026-09-25 17:36:01,559 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [183.4001688602694]}
+2026-09-25 17:36:01,577 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [183.35854765207847]}
+2026-09-25 17:36:01,597 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [183.31710239679893]}
+2026-09-25 17:36:01,621 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [183.27553316385826]}
+2026-09-25 17:36:01,645 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [183.23412939341148]}
+2026-09-25 17:36:01,663 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [183.1922406795748]}
+2026-09-25 17:36:01,681 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [183.15049024851402]}
+2026-09-25 17:36:01,706 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [183.10824915201744]}
+2026-09-25 17:36:01,728 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [183.06682344706138]}
+2026-09-25 17:36:01,748 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [183.02545400889]}
+2026-09-25 17:36:01,764 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [182.9841575268038]}
+2026-09-25 17:36:01,789 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [182.94222446711143]}
+2026-09-25 17:36:01,811 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [182.90099998743614]}
+2026-09-25 17:36:01,835 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [182.8595671299227]}
+2026-09-25 17:36:01,847 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [182.81783672602256]}
+2026-09-25 17:36:01,878 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [182.77647205622276]}
+2026-09-25 17:36:01,889 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [182.7342114094027]}
+2026-09-25 17:36:01,910 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [182.6926502826937]}
+2026-09-25 17:36:01,940 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [182.65075536997398]}
+2026-09-25 17:36:01,952 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [182.6088370922335]}
+2026-09-25 17:36:01,988 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [182.5668267849215]}
+2026-09-25 17:36:02,002 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [182.52490135462364]}
+2026-09-25 17:36:02,014 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [182.4834208133944]}
+2026-09-25 17:36:02,040 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [182.4418587330111]}
+2026-09-25 17:36:02,062 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [182.40047165186485]}
+2026-09-25 17:36:02,081 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [182.35918709070762]}
+2026-09-25 17:36:02,097 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [182.31775804789146]}
+2026-09-25 17:36:02,121 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [182.27606912882408]}
+2026-09-25 17:36:02,146 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [182.2346629741915]}
+2026-09-25 17:36:02,162 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [182.19282575876792]}
+2026-09-25 17:36:02,180 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [182.15162130625328]}
+2026-09-25 17:36:02,204 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [182.11037918360313]}
+2026-09-25 17:36:02,229 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [182.06879612238487]}
+2026-09-25 17:36:02,245 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [182.02660461695274]}
+2026-09-25 17:36:02,263 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [181.98518129618247]}
+2026-09-25 17:36:02,287 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [181.94354769022544]}
+2026-09-25 17:36:02,311 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [181.90215584070762]}
+2026-09-25 17:36:02,329 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [181.8601774814852]}
+2026-09-25 17:36:02,350 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [181.81872411997398]}
+2026-09-25 17:36:02,367 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [181.77729316980918]}
+2026-09-25 17:36:02,398 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [181.73608204157432]}
+2026-09-25 17:36:02,408 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [181.69463630945762]}
+2026-09-25 17:36:02,429 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [181.65328117640098]}
+2026-09-25 17:36:02,456 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [181.61203619272789]}
+2026-09-25 17:36:02,479 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [181.5706371906527]}
+2026-09-25 17:36:02,504 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [181.529369318796]}
+2026-09-25 17:36:02,511 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [181.48819681437095]}
+2026-09-25 17:36:02,539 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [181.4471063259371]}
+2026-09-25 17:36:02,563 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [181.40578314097007]}
+2026-09-25 17:36:02,587 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [181.3644489887484]}
+2026-09-25 17:36:02,594 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [181.32304712565025]}
+2026-09-25 17:36:02,614 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [181.2820024135836]}
+2026-09-25 17:36:02,639 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [181.24085422785362]}
+2026-09-25 17:36:02,661 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [181.19953676493247]}
+2026-09-25 17:36:02,681 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [181.15796848566612]}
+2026-09-25 17:36:02,697 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [181.1167430523165]}
+2026-09-25 17:36:02,726 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [181.0747179630526]}
+2026-09-25 17:36:02,747 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [181.03297611506065]}
+2026-09-25 17:36:02,762 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [180.99138971598228]}
+2026-09-25 17:36:02,780 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [180.95002838404258]}
+2026-09-25 17:36:02,804 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [180.90837236673912]}
+2026-09-25 17:36:02,829 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [180.86715456278404]}
+2026-09-25 17:36:02,845 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [180.82582184107383]}
+2026-09-25 17:36:02,863 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [180.7845463398226]}
+2026-09-25 17:36:02,889 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [180.74314447672447]}
+2026-09-25 17:36:02,913 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [180.70177646906455]}
+2026-09-25 17:36:02,928 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [180.66026684076866]}
+2026-09-25 17:36:02,946 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [180.61900135309776]}
+2026-09-25 17:36:02,972 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [180.5779189708956]}
+2026-09-25 17:36:02,993 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [180.53625055582603]}
+2026-09-25 17:36:03,011 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [180.49448629648765]}
+2026-09-25 17:36:03,029 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [180.4532489422091]}
+2026-09-25 17:36:03,055 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [180.4120721462496]}
+2026-09-25 17:36:03,081 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [180.37061783106407]}
+2026-09-25 17:36:03,094 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [180.3289003017672]}
+2026-09-25 17:36:03,124 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [180.28737255365928]}
+2026-09-25 17:36:03,144 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [180.24559494288047]}
+2026-09-25 17:36:03,162 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [180.20409246714195]}
+2026-09-25 17:36:03,177 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [180.16261812479576]}
+2026-09-25 17:36:03,195 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [180.1214561107882]}
+2026-09-25 17:36:03,215 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [180.08026834757408]}
+2026-09-25 17:36:03,246 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [180.0389251354464]}
+2026-09-25 17:36:03,261 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [179.99757143290122]}
+2026-09-25 17:36:03,278 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [179.95625063211997]}
+2026-09-25 17:36:03,298 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [179.91444202692588]}
+2026-09-25 17:36:03,324 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [179.87325569422325]}
+2026-09-25 17:36:03,346 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [179.83201500208457]}
+2026-09-25 17:36:03,361 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [179.79085251123985]}
+2026-09-25 17:36:03,380 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [179.74987026484092]}
+2026-09-25 17:36:03,407 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [179.70876880915245]}
+2026-09-25 17:36:03,443 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [179.66764780314048]}
+2026-09-25 17:36:03,446 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [179.6265782955416]}
+2026-09-25 17:36:03,463 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [179.58550735743125]}
+2026-09-25 17:36:03,490 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [179.54426475794395]}
+2026-09-25 17:36:03,508 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [179.5031380298861]}
+2026-09-25 17:36:03,527 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [179.46178957254966]}
+2026-09-25 17:36:03,545 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [179.4206547382601]}
+2026-09-25 17:36:03,572 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [179.37944504053672]}
+2026-09-25 17:36:03,595 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [179.33789869577964]}
+2026-09-25 17:36:03,611 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [179.2965492847689]}
+2026-09-25 17:36:03,629 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [179.25537010462364]}
+2026-09-25 17:36:03,648 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [179.21421858103355]}
+2026-09-25 17:36:03,677 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [179.17279573710044]}
+2026-09-25 17:36:03,706 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [179.1312102916964]}
+2026-09-25 17:36:03,710 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [179.0892877224215]}
+2026-09-25 17:36:03,732 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [179.04830023081382]}
+2026-09-25 17:36:03,758 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [179.00700231821617]}
+2026-09-25 17:36:03,773 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [178.96572014124473]}
+2026-09-25 17:36:03,794 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [178.92358776362022]}
+2026-09-25 17:36:03,824 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [178.88224121363243]}
+2026-09-25 17:36:03,844 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [178.8406624439486]}
+2026-09-25 17:36:03,864 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [178.79937692911705]}
+2026-09-25 17:36:03,886 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [178.75794597895225]}
+2026-09-25 17:36:03,897 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [178.71653648645957]}
+2026-09-25 17:36:03,938 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [178.675054991556]}
+2026-09-25 17:36:04,007 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [178.633964026285]}
+2026-09-25 17:36:04,008 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [178.5925240162142]}
+2026-09-25 17:36:04,010 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [178.55121513636192]}
+2026-09-25 17:36:04,011 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [178.5100936535128]}
+2026-09-25 17:36:04,031 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [178.46895977289756]}
+2026-09-25 17:36:04,052 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [178.42770572931846]}
+2026-09-25 17:36:04,062 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [178.38656135828575]}
+2026-09-25 17:36:04,085 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [178.344958746744]}
+2026-09-25 17:36:04,104 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [178.30358978540977]}
+2026-09-25 17:36:04,135 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [178.26198335917076]}
+2026-09-25 17:36:04,146 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [178.22035833628257]}
+2026-09-25 17:36:04,171 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [178.17887731821617]}
+2026-09-25 17:36:04,193 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [178.13724657328208]}
+2026-09-25 17:36:04,227 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [178.09529587061485]}
+2026-09-25 17:36:04,261 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [178.05308672220787]}
+2026-09-25 17:36:04,263 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [178.01157614023765]}
+2026-09-25 17:36:04,276 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [177.97033258707603]}
+2026-09-25 17:36:04,296 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [177.92838379175743]}
+2026-09-25 17:36:04,312 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [177.88683172495445]}
+2026-09-25 17:36:04,338 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [177.84559723169883]}
+2026-09-25 17:36:04,363 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [177.80440374643882]}
+2026-09-25 17:36:04,380 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [177.7629947307833]}
+2026-09-25 17:36:04,396 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [177.7217282894381]}
+2026-09-25 17:36:04,415 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [177.68056627543052]}
+2026-09-25 17:36:04,444 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [177.63923641474327]}
+2026-09-25 17:36:04,462 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [177.59760757715782]}
+2026-09-25 17:36:04,477 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [177.55647560389122]}
+2026-09-25 17:36:04,498 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [177.5150003078707]}
+2026-09-25 17:36:04,529 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [177.47349163324913]}
+2026-09-25 17:36:04,540 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [177.43198725016197]}
+2026-09-25 17:36:04,563 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [177.39044233591636]}
+2026-09-25 17:36:04,583 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [177.34896847040733]}
+2026-09-25 17:36:04,601 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [177.30764910013755]}
+2026-09-25 17:36:04,636 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [177.26642700464805]}
+2026-09-25 17:36:04,644 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [177.22506662638267]}
+2026-09-25 17:36:04,664 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [177.18319078714927]}
+2026-09-25 17:36:04,699 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [177.1417035701998]}
+2026-09-25 17:36:04,708 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [177.09893366129478]}
+2026-09-25 17:36:04,738 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [177.05700107843955]}
+2026-09-25 17:36:04,749 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [177.0147175434359]}
+2026-09-25 17:36:04,860 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [176.97312971384605]}
+2026-09-25 17:36:04,871 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [176.93090244562705]}
+2026-09-25 17:36:04,875 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [176.88955732615074]}
+2026-09-25 17:36:04,876 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [176.84846063883384]}
+2026-09-25 17:36:04,876 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [176.80728384287437]}
+2026-09-25 17:36:04,877 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [176.76606270105918]}
+2026-09-25 17:36:04,896 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [176.72423645289024]}
+2026-09-25 17:36:04,914 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [176.682614291025]}
+2026-09-25 17:36:04,950 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [176.64142700464805]}
+2026-09-25 17:36:04,957 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [176.59973713190635]}
+2026-09-25 17:36:04,978 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [176.55777021677574]}
+2026-09-25 17:36:05,005 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [176.51608940394004]}
+2026-09-25 17:36:05,019 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [176.47391887934288]}
+2026-09-25 17:36:05,050 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [176.43233009607872]}
+2026-09-25 17:36:05,062 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [176.39016147883018]}
+2026-09-25 17:36:05,083 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [176.3481611850985]}
+2026-09-25 17:36:05,116 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [176.30628439219078]}
+2026-09-25 17:36:05,139 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [176.26397892267784]}
+2026-09-25 17:36:05,227 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [176.22255131037315]}
+2026-09-25 17:36:05,237 INFO     mxcube_ipc_explorer: request: debug_call(role='diffractometer.omega', method='stop', args=[], kwargs={})
+2026-09-25 17:36:05,239 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [176.18103739054283]}
+2026-09-25 17:36:05,240 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [176.13942285807212]}
+2026-09-25 17:36:05,241 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [176.09825512201866]}
+2026-09-25 17:36:05,242 INFO     mxcube_ipc_explorer: event: diffractometer.omega.valueChanged -> {'args': [176.05718513758262]}
+2026-09-25 17:36:05,244 INFO     mxcube_ipc_explorer: response: debug_call(role='diffractometer.omega', method='stop') -> None
+2026-09-29 16:18:59,774 INFO     mxcube_ipc_explorer: quitting
+2026-09-29 16:18:59,774 ERROR    mxcube_ipc_explorer: error closing client on quit
+Traceback (most recent call last):
+  File "/home/oscarsso/projects/ai-work/mxcube/queue-refactor/mxcube-ipc-explorer/src/mxcube_ipc_explorer/app.py", line 524, in action_quit
+    self.client.close()
+  File "/home/oscarsso/projects/ai-work/mxcube/queue-refactor/mxcubecore/mxcubecore/ipc/client.py", line 461, in close
+  File "/home/oscarsso/projects/ai-work/mxcube/queue-refactor/mxcubecore/mxcubecore/ipc/client.py", line 252, in close
+  File "/home/oscarsso/micromamba/envs/mxcubeweb/lib/python3.11/site-packages/paho/mqtt/client.py", line 554, in wait_for_publish
+    raise RuntimeError(f'Message publish failed: {error_string(self.rc)}')
+RuntimeError: Message publish failed: The client is not currently connected.
+2026-09-29 16:18:59,903 INFO     mxcube_ipc_explorer: === mxcube-ipc-explorer exiting ===
+2026-09-29 16:19:01,514 INFO     mxcube_ipc_explorer: === mxcube-ipc-explorer starting (log file: mxcube-ipc-explorer.log) ===
+2026-09-29 16:19:01,567 INFO     mxcube_ipc_explorer: app started
+2026-09-29 16:19:01,569 INFO     mxcube_ipc_explorer: connecting: {'token': '***', 'transport': 'nanomq', 'broker_host': 'localhost', 'broker_port': 1883, 'topic_prefix': 'mxcube/ipc'}
+2026-09-29 16:19:06,736 ERROR    mxcube_ipc_explorer: connection failed
+Traceback (most recent call last):
+  File "/home/oscarsso/projects/ai-work/mxcube/queue-refactor/mxcube-ipc-explorer/src/mxcube_ipc_explorer/app.py", line 247, in connect_client
+    client = MXCuBEIPCClient(**self._client_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oscarsso/projects/ai-work/mxcube/queue-refactor/mxcube-ipc-client/src/mxcube_ipc_client/client.py", line 243, in __init__
+    self._call(AUTH_METHOD, {"token": token})
+  File "/home/oscarsso/projects/ai-work/mxcube/queue-refactor/mxcube-ipc-client/src/mxcube_ipc_client/client.py", line 274, in _call
+    raise TimeoutError(f"no response to {method!r} within {self._timeout}s")
+TimeoutError: no response to '_auth' within 5s
+2026-09-29 16:19:15,150 INFO     mxcube_ipc_explorer: quitting
+2026-09-29 16:19:15,364 INFO     mxcube_ipc_explorer: === mxcube-ipc-explorer exiting ===
+2026-09-29 16:19:26,751 INFO     mxcube_ipc_explorer: === mxcube-ipc-explorer starting (log file: mxcube-ipc-explorer.log) ===
+2026-09-29 16:19:26,803 INFO     mxcube_ipc_explorer: app started
+2026-09-29 16:19:26,804 INFO     mxcube_ipc_explorer: connecting: {'token': '***', 'transport': 'nanomq', 'broker_host': 'localhost', 'broker_port': 1883, 'topic_prefix': 'mxcube/ipc'}
+2026-09-29 16:19:31,980 ERROR    mxcube_ipc_explorer: connection failed
+Traceback (most recent call last):
+  File "/home/oscarsso/projects/ai-work/mxcube/queue-refactor/mxcube-ipc-explorer/src/mxcube_ipc_explorer/app.py", line 247, in connect_client
+    client = MXCuBEIPCClient(**self._client_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oscarsso/projects/ai-work/mxcube/queue-refactor/mxcube-ipc-client/src/mxcube_ipc_client/client.py", line 243, in __init__
+    self._call(AUTH_METHOD, {"token": token})
+  File "/home/oscarsso/projects/ai-work/mxcube/queue-refactor/mxcube-ipc-client/src/mxcube_ipc_client/client.py", line 274, in _call
+    raise TimeoutError(f"no response to {method!r} within {self._timeout}s")
+TimeoutError: no response to '_auth' within 5s
+2026-09-29 16:22:17,070 INFO     mxcube_ipc_explorer: quitting
+2026-09-29 16:22:17,283 INFO     mxcube_ipc_explorer: === mxcube-ipc-explorer exiting ===
+2026-09-29 16:22:55,064 INFO     mxcube_ipc_explorer: === mxcube-ipc-explorer starting (log file: mxcube-ipc-explorer.log) ===
+2026-09-29 16:22:55,122 INFO     mxcube_ipc_explorer: app started
+2026-09-29 16:22:55,123 INFO     mxcube_ipc_explorer: connecting: {'token': '***', 'transport': 'nanomq', 'broker_host': 'localhost', 'broker_port': 1883, 'topic_prefix': 'mxcube/ipc'}
+2026-09-29 16:22:55,312 INFO     mxcube_ipc_explorer: connected
+2026-09-29 16:22:55,312 INFO     mxcube_ipc_explorer: whitelisted events: {'procedure.test_signal': {'role': 'procedure', 'signal': 'test_signal', 'args': None, 'args_schema': None}, 'diffractometer.omega.valueChanged': {'role': 'diffractometer.omega', 'signal': 'valueChanged', 'args': None, 'args_schema': None}}
+2026-09-29 16:22:55,316 INFO     mxcube_ipc_explorer: request: debug_list_roles(role='')
+2026-09-29 16:22:55,332 INFO     mxcube_ipc_explorer: response: debug_list_roles(role='') -> {'role': '', 'class': 'Beamline', 'roles': ['beam', 'beamline_actions', 'characterisation', 'collect', 'cryo', 'detector', 'diffractometer', 'energy', 'energy_scan', 'fast_shutter', 'flux', 'gphl_connection', 'gphl_workflow', 'ipc_gateway', 'ipc_server', 'lims', 'machine_info', 'procedure', 'queue_manager', 'queue_model', 'resolution', 'safety_shutter', 'sample_changer', 'sample_changer_maintenance', 'sample_view', 'session', 'transmission', 'workflow', 'xml_rpc_server', 'xray_centring', 'xrf_spectrum']}
+2026-09-29 16:23:04,095 INFO     mxcube_ipc_explorer: request: debug_call(role='queue_model', method='get_queue_dict', args=[], kwargs={})
+2026-09-29 16:23:04,101 INFO     mxcube_ipc_explorer: response: debug_call(role='queue_model', method='get_queue_dict') -> {'format_version': '0.0.1'}
+2026-09-29 16:23:05,538 INFO     mxcube_ipc_explorer: request: debug_call(role='queue_model', method='get_queue_dict', args=[], kwargs={})
+2026-09-29 16:23:05,540 INFO     mxcube_ipc_explorer: response: debug_call(role='queue_model', method='get_queue_dict') -> {'format_version': '0.0.1'}
+2026-09-29 16:23:06,340 INFO     mxcube_ipc_explorer: request: debug_call(role='queue_model', method='get_queue_dict', args=[], kwargs={})
+2026-09-29 16:23:06,345 INFO     mxcube_ipc_explorer: response: debug_call(role='queue_model', method='get_queue_dict') -> {'format_version': '0.0.1'}
+2026-09-29 16:24:24,796 INFO     mxcube_ipc_explorer: request: debug_call(role='queue_model', method='get_queue_dict', args=[], kwargs={})
+2026-09-29 16:24:24,798 INFO     mxcube_ipc_explorer: response: debug_call(role='queue_model', method='get_queue_dict') -> {'format_version': '0.0.1'}
+2026-09-29 16:24:27,201 INFO     mxcube_ipc_explorer: request: debug_list_roles(role='beam')
+2026-09-29 16:24:27,203 INFO     mxcube_ipc_explorer: response: debug_list_roles(role='beam') -> {'role': 'beam', 'class': 'BeamMockup', 'roles': ['aperture', 'slits']}
